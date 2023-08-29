@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina con js
+
+    </title>
+    <script languaje="javascript">
+        <!--
+        var nombres = new Array(); // se declara la matriz
+        /* a continuacion se crean y declaran siete celdas. */
+        nombres[0] = "NACHO"
+        nombres[1] = "AREK"
+        nombres[2] = "LAURA"
+        nombres[3] = "SONIA"
+        nombres[4] = "GONZALO"
+        nombres[5] = "EVA"
+        nombres[6] = "PEDRO"
+        
+        /* ahora se muestran las celdas, para comprobar que han almacenado los valores correctos */
+        document.write (nombres[0] + "<br>");
+        document.write (nombres[1] + "<br>");
+        document.write (nombres[2] + "<br>");
+        document.write (nombres[3] + "<br>");
+        document.write (nombres[4] + "<br>");
+        document.write (nombres[5] + "<br>");
+        document.write (nombres[6] + "<br>");
+        /* a continuacion se crea otra celda y luego se
+        muestra a su contenido para demostrar que el numero
+        de celdas de la matriz se puede cambiar durante
+        la ejecucion. tecnicamente se dice que la matriz es
+        redimensionable dinamicamente*/
+        nombres[7] = "manuel";
+        document.write (nombres[7] + "<br>");
+        
+        var nombreIngresado = prompt("Ingresa un nombre:");
+        
+        var nombreEncontrado = false;
+        for (var i = 0; i < nombres.length; i++) {
+        if (nombres[i] === nombreIngresado) {
+            nombreEncontrado = true;
+        break;
+            }
+        }
+        if (nombreEncontrado) {
+        // El nombre existe en la lista
+        document.write("El nombre existe en la lista.<br>");
+        } else {
+        // El nombre no existe en la lista
+        alert("Nombre no existe en la lista.");
+        }
+        //    -->
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
